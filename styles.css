@@ -1,2 +1,42 @@
 /* Digital Clock Stylesheet  */
 
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    color: #fbfffb;
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #292F3A;
+}
+
+.container{
+    margin: 40px auto;
+    width: 50%;
+    padding: 15px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    align-items: center;
+}
+.title{
+    padding: 15px;
+}
+
+.title h1,
+.title p {
+    color: #c3c6c3;
+}
+
+.title h1{
+    font-size: 35px;
+}
+
+.title p{
+    font-size: 12px;
+    text-align: end;
+}
