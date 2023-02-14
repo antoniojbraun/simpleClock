@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Digital Clock - HTML, CSS and JavaScript</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
 </head>
 <body>
     <div class="container">
@@ -14,19 +15,13 @@
             <p>HTML, CSS and JavaScript</p>
         </div>
         <div class="clockSection">
-            <div class="hour">
-                <p>11</p>
-            </div>
-            <div class="minute">
-                <p>40</p>
-            </div>
-            <div class="second">
-                <p>10</p>
-            </div>
+                <p id="hour"></p>
+                <p id="minute"></p>
+                <p id="second"></p>           
         </div>
         <div class="daysSection">
-            <p class="dayOfWeek">Segunda-feira</p>
-            <p class="dayOfYear">13/02/2023</p>
+            <p id="dayOfWeek"></p>
+            <p id="dayOfYear"></p>
         </div>
     </div>
 </body>

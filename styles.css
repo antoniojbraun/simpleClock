@@ -46,9 +46,9 @@ body{
     font-size: 32px;
 }
 
-.hour,
-.minute,
-.second{
+#hour,
+#minute,
+#second{
     width: 70px;
     height: 70px;
     border-radius: 5px;
@@ -58,13 +58,13 @@ body{
     align-items: center;
 }
 
-.hour{
+#hour{
     background-color: #f8565a ;
 }
-.minute{
+#minute{
    background-color: #32c971;
 }
-.second{
+#second{
     background-color: #f4bc58 ;
 }
 
